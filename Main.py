@@ -8,7 +8,7 @@ def merge_sort(data) -> None:
     data_right = data[mid:]
     merge_sort(data_left)
     merge_sort(data_right)
- 
+
     a = 0 # for left_ata
     b = 0 # for right_data
     c = 0 # for main_data
